@@ -1,0 +1,53 @@
+{
+  "name": "Building-System",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$path": "src/shared"
+    },
+
+    "ServerScriptService": {
+      "$path": "src/server"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/client"
+       
+      }
+    },
+
+    "StarterGui": {
+      "$className": "StarterGui",
+      "ScreenGui": {
+        "$className": "ScreenGui",
+        "$properties": {
+           "ResetOnSpawn": false
+        },
+       
+        "testui": {
+          "$path": "src/StarterGui/testui.client.luau"
+        }
+      }
+    },
+
+    "ServerStorage": {
+      "$path": "src/ServerStorage"
+    },
+    "Workspace": {
+      "$path": "src/Workspace",
+      "$properties": {
+        "FilteringEnabled": true
+      
+      }
+
+    },
+
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
